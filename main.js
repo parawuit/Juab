@@ -23,9 +23,9 @@ function createWindow () {
   const ret2 = globalShortcut.register('MediaNextTrack', () => {
     contents.executeJavaScript("MediaNextTrack()");
   })
-  // const ret3 = globalShortcut.register('MediaPrevTrack', () => {
-  //   contents.executeJavaScript("MediaPrevTrack()");
-  // })
+  const ret3 = globalShortcut.register('MediaPreviousTrack', () => {
+    contents.executeJavaScript("MediaPreviousTrack()");
+  })
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 
